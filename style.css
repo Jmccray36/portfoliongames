@@ -11,7 +11,7 @@ body {
     }
 
 .btn-animate {
-  background-color: #28a745;
+  background-color: #000000;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -21,7 +21,7 @@ body {
 }
 
 .btn-animate:hover {
-  background-color: #2a9742;
+  background-color: #FFD700;
   transform: scale(1.05);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -29,4 +29,14 @@ body {
 .btn-animate:active {
   transform: scale(0.97);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.bg-image {
+  background-image: url('img/DS2.jpg'); /* 👈 this is where the image is set */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
 }
